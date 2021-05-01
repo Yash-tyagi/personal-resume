@@ -5,7 +5,7 @@ body{
 	margin: 0 auto;
 	text-align: center;
 	width: 700px;
-	font-family: 'Indie Flower', cursive;
+	font-family: 'Ubuntu', sans-serif;
 	font-size: 20px;
 }
 
@@ -13,8 +13,8 @@ header h1{
 	padding: 10px;
 }
 .leftSide, .rightSide{
-	//display: inline-block;
-	//float: left;
+	/* display: inline-block; */
+	/* float: left; */
 }
 
 .leftSide{
@@ -29,15 +29,21 @@ header h1{
 	height: 1000px;
 	float: right;
 	margin-top: 20px;
+	text-align: left;
 }
 
 img{
 	height: 50px;
 	width: 50px;
 }
-#part1, #part2, #part3, #part4, #part5, #part6{
+
+#part3, #part4{
+	text-align: left;
+}
+
+#part1, #part2, #part3, #part5, #part6{
 	border-top: 1px solid blue;
 }
-#part4, #part6{
+#part3, #part6{
 	border-bottom: 1px solid blue;
 }
